@@ -1,0 +1,2 @@
+# moleculer-service-template
+

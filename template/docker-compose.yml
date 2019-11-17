@@ -1,0 +1,16 @@
+version: "3.2"
+
+services:
+    {{projectName}}:
+        build:
+            context: .
+        image: {{projectName}}
+        container_name: {{projectName}}
+        env_file: .env
+        depends_on:
+            - nats
+
+    nats:
+        image: nats
+        ports:
+            - 4222:4222
