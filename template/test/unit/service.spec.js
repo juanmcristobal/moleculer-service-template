@@ -2,7 +2,11 @@
 
 const { ServiceBroker } = require("moleculer");
 const { ValidationError } = require("moleculer").Errors;
+<<<<<<< HEAD
+const TestService = require("../../src/{{projectName}}.service");
+=======
 const TestService = require("../../src/service");
+>>>>>>> first commit
 
 describe("Test 'greeter' service", () => {
     let broker = new ServiceBroker();

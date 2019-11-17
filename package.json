@@ -1,6 +1,28 @@
 {
   "name": "{{projectName}}",
   "version": "1.0.0",
+<<<<<<< HEAD
+  "description": "I created this template to have a basic project with all the configurations I would like my projects to have.",
+  "author": "Juan Manuel Cristóbal Moreno",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "microservices",
+    "nodejs",
+    "moleculer"
+  ],
+  "license": "MIT",
+  "contributors": [
+    "Juan Manuel Cristóbal Moreno"
+  ],
+  "bugs": "https://github.com/juanmcristobal/moleculer-service-template/issues",
+  "homepage": "https://github.com/juanmcristobal/moleculer-service-template/",
+  "repository": "github:juanmcristobal/moleculer-service-template"
+
+=======
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,4 +31,5 @@
   "keywords": [],
   "author": "",
   "license": "ISC"
+>>>>>>> first commit
 }
