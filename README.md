@@ -1,6 +1,5 @@
 # moleculer-service-template
 
-<<<<<<< HEAD
 ## Description
 I created this template to have a basic project with all the configurations I would like my projects to have.
 
@@ -24,5 +23,4 @@ $ npm run dev
 mol$ services
 ```
 
-=======
->>>>>>> first commit
+
