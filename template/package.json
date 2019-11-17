@@ -3,13 +3,8 @@
     "version": "1.0.0",
     "description": "My Moleculer microservice",
     "scripts": {
-<<<<<<< HEAD
         "dev": "moleculer-runner src/ --repl --hot",
         "start": "moleculer-runner src/ --instances 4",
-=======
-        "dev": "moleculer-runner --repl --hot",
-        "start": "moleculer-runner --instances 4",
->>>>>>> first commit
         "ci": "jest --watch",
         "test": "jest --coverage",
         "lint": "eslint 'src/**/*.js' --fix && eslint 'test/**/*.js' --fix",
