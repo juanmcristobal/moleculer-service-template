@@ -4,7 +4,7 @@
     "description": "My Moleculer microservice",
     "scripts": {
         "dev": "moleculer-runner src/ --repl --hot",
-        "start": "moleculer-runner src/ --instances 4",
+        "start": "moleculer-runner src/ --instances 1",
         "ci": "jest --watch",
         "test": "jest --coverage",
         "lint": "eslint 'src/**/*.js' --fix && eslint 'test/**/*.js' --fix",
