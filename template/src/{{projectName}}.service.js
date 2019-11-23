@@ -1,8 +1,10 @@
 "use strict";
+const InfoNodeExporter = require("moleculer-elasticsearch-info-exporter");
 
 module.exports = {
-    name: "greeter",
+    name: "{{projectName}}",
 
+    mixins: [InfoNodeExporter],
     /**
      * Service settings
      */

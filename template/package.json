@@ -26,7 +26,8 @@
     "dependencies": {
         "moleculer": "^0.13.11",
         "nats": "^1.3.2",
-        "prettier": "^1.19.1"
+        "prettier": "^1.19.1",
+        "moleculer-elasticsearch-info-exporter": "0.0.1"
     },
     "engines": {
         "node": ">= 8.x.x"
@@ -34,7 +35,7 @@
     "jest": {
         "coverageDirectory": "../coverage",
         "testEnvironment": "node",
-        "rootDir": "./services",
+        "rootDir": "./src",
         "roots": [
             "../test"
         ]
