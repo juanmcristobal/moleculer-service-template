@@ -11,7 +11,7 @@ module.exports = {
     logFormatter: "default",
     logObjectPrinter: null,
 
-    transporter: process.env.NAT_URL || "nats://localhost:4222",
+    transporter: process.env.TRANSPORTER || "nats://localhost:4222",
 
     cacher: "Memory",
 
