@@ -39,6 +39,7 @@ $ docker build -t {{projectName}} .
 ```bash
 $ docker run -d {{projectName}}
 ```
+{{servidedbName}}
 
 ## References
 This project is created from the moleculer template: https://github.com/juanmcristobal/moleculer-service-template
